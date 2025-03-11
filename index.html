@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crazy To-Do</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white flex flex-col items-center justify-center min-h-screen">
+    <h1 class="text-4xl font-bold mb-4">Crazy To-Do List ✅</h1>
+    <div class="w-96 bg-gray-800 p-4 rounded-lg shadow-lg">
+        <input id="taskInput" type="text" placeholder="Add a task..." class="w-full p-2 rounded-lg text-black">
+        <button onclick="addTask()"
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2">Add Task</button>
+        <ul id="taskList" class="mt-4"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
